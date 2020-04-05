@@ -11,7 +11,7 @@
 
 	<!-- Form to validator -->
 	<action-mappings>
-		<action path="/reg" name="RF" input="/index.jsp" type="controller.RegController">
+		<action path="/reg" name="RF" input="/index.jsp" type="controller.RegController" parameter="submit">
 			<forward name="succes" path="/success.jsp"></forward>
 			<forward name="fail" path="/fail.jsp"></forward>
 		</action>
